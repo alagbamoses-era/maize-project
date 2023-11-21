@@ -112,8 +112,8 @@ footer {
 .themeButton {
     display: block;
     color: white;
-    margin: 10px auto;
-    padding: 15px 20px;
+    margin: 0px auto;
+    padding: 6px 10px;
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
