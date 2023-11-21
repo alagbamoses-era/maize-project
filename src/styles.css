@@ -5,7 +5,6 @@ body {
 
 h1, h2 {
     text-align: center;
-    color:  rgb(1, 66, 1);
 }
 
 
@@ -26,6 +25,11 @@ p {
 a {
     text-decoration: none;
     color:rgb(1, 66, 1);
+    font-weight: bold;
+}
+ button a {
+    text-decoration: none;
+    color: white;
     font-weight: bold;
 }
 
@@ -103,4 +107,62 @@ footer {
 
 .media {
     margin-right: 50px;
+}
+
+.themeButton {
+    display: block;
+    color: white;
+    margin: 10px auto;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: black;
+    cursor: pointer;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
+
+.dark .container {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    opacity: 0.9;
+}
+
+
+.dark a {
+    color: white;
+}
+
+.dark .maize-products {
+    background: white;
+    color: black;
+    border: none;
+}
+
+.dark .maize-products:hover {
+    background: black;
+    color: white;
+    border: none;
+}
+
+.dark .themeButton:hover {
+    background: white;
+    color: black;
+    border: none;
+
+}
+
+.dark .links {
+    color: goldenrod;
+}
+@media (max-width:500px)
+{
+    .social-handles {
+        grid-template-columns: 1fr;
+        grid-gap: 10px 
+    }
 }
