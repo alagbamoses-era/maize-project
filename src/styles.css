@@ -3,12 +3,12 @@ body {
 }
 
 
-h1 {
+h1, h2 {
     text-align: center;
+    color:  rgb(1, 66, 1);
 }
-h2 {
-    text-align: center;
-}
+
+
 .container {
     max-width: 600px;
     margin: 15px auto;
@@ -26,11 +26,22 @@ p {
 a {
     text-decoration: none;
     color:rgb(1, 66, 1);
+    font-weight: bold;
 }
 
 img {
     max-width: 100%;
     
+}
+
+img:hover {
+    transform: scale(1.5);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
 }
 
 .main-picture {
@@ -65,6 +76,7 @@ img {
     font-size: 15px;
     font-weight: bold;
     background: rgb(1, 66, 1);
+    cursor: pointer;
 }
 
 .maize-products:hover {
@@ -72,3 +84,22 @@ img {
     background: white;
 }
 
+.link footer {
+    text-align: center;
+}
+
+.links {
+    color: rgb(1, 66, 1);
+    font-weight: bold;
+}
+
+.social-handles {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 15px;
+    
+}
+
+.media {
+    margin-right: 50px;
+}
